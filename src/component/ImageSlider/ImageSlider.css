@@ -1,0 +1,30 @@
+.img-slider {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    border: 2px solid var(--neutral-color);
+    color: var(--neutral-color);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
+    background-color: var(--neutral-color);
+    color: var(--basic-color);
+}
+
+.carousel-control-prev-icon::after,.carousel-control-next-icon::after {
+    --mdb-carousel-control-icon-font-size: 2.8rem;
+    display: block;
+    margin: 0 auto;
+}
+.carousel-control-prev-icon{
+    margin-right: 170px;
+}
+.carousel-control-next-icon{
+    margin-left: 170px;
+}
