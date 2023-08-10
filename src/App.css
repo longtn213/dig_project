@@ -14,7 +14,7 @@
 }
 
 .logo {
-    width: 80px;
+    width: 100px;
     height: 80px;
     flex-shrink: 0;
     background: var(--basic-color) cover no-repeat;
