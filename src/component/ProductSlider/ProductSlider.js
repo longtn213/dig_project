@@ -1,5 +1,6 @@
 import "./slick.css";
 import "./slick-theme.css";
+import "./ProductSlider.css"
 import Slider from "react-slick";
 import {ProductData} from './ProductData'
 
@@ -28,9 +29,9 @@ function ProductSlider() {
                                     <span>{productItem.price}</span>
                                 </div>
                                 <div className="product-brand">
-                                    <div className="product-shoppee">Shopee</div>
-                                    <div className="product-lazada">Lazada</div>
-                                    <div className="product-tiki">Tiki</div>
+                                    <div className="product-brand_item product-shoppee">Shopee</div>
+                                    <div className="product-brand_item product-lazada">Lazada</div>
+                                    <div className="product-brand_item product-tiki">Tiki</div>
                                 </div>
                             </div>
                         </div>

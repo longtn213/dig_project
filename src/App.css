@@ -5,11 +5,8 @@
 .header {
     height: 104px;
     display: flex;
-    width: 100%;
-    padding: 12px 0;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1309px;
 }
 
 .header-right:hover {
@@ -86,9 +83,6 @@
 }
 
 .navbar-content {
-    margin-left: 120px;
-    margin-right: 120px;
-    width: 1680px;
     display: flex;
     height: 68px;
     flex-wrap: wrap;
@@ -118,29 +112,20 @@
     height: 784px;
 }
 
+.advertisement {
+    margin-top: 10px;
+}
+
 .ads-img {
     width: 100%;
 }
 
 /*product*/
-.product-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 52px 0 26px 0;
+.product {
+    margin-bottom: 52px;
 }
-.product-title{
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
-    color: var(--neutral-color);
-    border-left: 8px solid var(--neutral-color);
-}
-.product-title span{
-    margin-left: 24px;
-}
-.btn-product{
+
+.btn-product {
     padding: 6px 16px;
     border-radius: 12px;
     border: 1px solid var(--neutral-color);
@@ -150,7 +135,170 @@
     font-weight: 400;
     line-height: 24px;
 }
-.btn-product:hover{
+
+.btn-product:hover {
     background-color: var(--neutral-color);
     color: var(--basic-color);
+}
+
+/*Introduction*/
+.intro-video {
+    height: 850px;
+    background-color: var(--success-color);
+    position: relative;
+}
+
+.video-content {
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 60px;
+    width: 1116px;
+
+}
+
+.video-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    display: inline-block;
+    padding: 20px 30px;
+    margin-right: 10px;
+    border: 2px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--neutral-color);
+    text-align: center;
+}
+
+.header-title_active {
+    background-color: var(--basic-color);
+    border-left: 6px solid var(--neutral-color);
+}
+
+.video-body {
+    position: absolute;
+    width: 100%;
+    background-color: var(--basic-color);
+}
+
+.body-content {
+    display: flex;
+    padding: 30px;
+}
+
+.content-img {
+    margin-right: 24px;
+}
+
+.content-img img {
+    width: 162px;
+    height: 162px;
+}
+
+.content-text_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line1-category {
+    display: flex;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--tag-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--basic-color);
+}
+
+.line1-category:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.line1-date {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.content-text_heading {
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    white-space: nowrap;
+    width: 820px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.detail {
+    white-space: nowrap;
+    width: 820px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-decoration {
+    border-bottom: 1px dashed var(--neutral-color);
+}
+
+/*footer*/
+.footer{
+    margin-top: 52px;
+    height: 482px;
+}
+.footer-left{
+    margin-top: 72px;
+    margin-left: 52px;
+}
+.footer-heading{
+    font-family:Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer-title{
+    font-family:Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.footer-right{
+    position: relative;
+    width: 770px;
+    height: 100%;
+    background-color: #FFF4BD;
+
+}
+.footer-content{
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 24px;
+}
+.footer-subscribe{
+    width: 722px;
+    height: 62px;
+
 }
